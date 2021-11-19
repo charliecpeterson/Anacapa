@@ -4,7 +4,7 @@
 
 # The Anacapa Toolkit
 
-### last updated 8-22-2018
+## New changes for use in a Singularity container - Charles Peterson <cpeterson@oarc.ucla.edu>
 
 #### Written by Emily Curd (eecurd@g.ucla.edu), Jesse Gomer (jessegomer@gmail.com), Gaurav Kandlikar (gkandlikar@ucla.edu), Zack Gold (zjgold@ucla.edu), Max Ogden (max@maxogden.com), and Baochen Shi (biosbc@gmail.com).
 
