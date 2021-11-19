@@ -167,13 +167,6 @@ else
   echo ""
 fi
 
-##load modules / software
-${MODULE_SOURCE} # use if you need to load modules from an HPC
-${FASTX_TOOLKIT} #load fastx_toolkit
-${ANACONDA_PYTHON} #load anaconda/python2-4.2
-${ATS} #load ATS, Hoffman2 specific module for managing submitted jobs.
-
-###
 
 ################################
 # Preprocessing .fastq files
