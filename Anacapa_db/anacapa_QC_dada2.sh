@@ -1,5 +1,4 @@
-#! /bin/bash
-
+#!/bin/bash
 ### this script is run as follows
 # sh ~/Anacapa_db/scripts/anacapa_QC_dada2.sh -i <input_dir> -o <out_dir> -d <database_directory> -f <fasta file of forward primers> -r <fasta file of reverse primers> -a <adapter type (nextera or truseq)>  -t <illumina run type HiSeq or MiSeq> -u <HPC_user_name>  -l (add flag (-l), no text required, if running locally), -g (add flag (-g), no text required, if fastq files are not compressed), -c change cut adapt error 3' and 5' trimming .3 default need value, -p change cut adapt error primer sorting / trimming .3 default need value, -q minimum quality score, -x additional base pairs trimmed from 5' end forward read, -y additional base pairs trimmed from 5' end reverse read, -b number of times an ASV must be found to retain after dada2, -e file path to minimum overlap for user determined F and R primers, -k path to custom HPC job submission header
 HELP=""
@@ -22,7 +21,6 @@ MINTIMES_ASV=""
 MIN_MERGE_LENGTH=""
 LOCALMODE="FALSE"
 HPC_HEADER=""
-
 while getopts "h?:i:o:d:u:f:r:a:t:l?:g?:c:p:q:m:x:y:b:e:k:" opt; do
     case $opt in
         h) HELP="TRUE"

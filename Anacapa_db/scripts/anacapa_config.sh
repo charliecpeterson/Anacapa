@@ -33,7 +33,6 @@ CUTADAPT="cutadapt" 		#version 1.16 path to cutadapt binary. See documentation f
 
 #load R
 #R="module load R/3.4.2"
-R=`R`
 #load python with numpy
 #PYTHONWNUMPY="module load python/2.7.3"
 
@@ -41,8 +40,5 @@ MUSCLE="${DB}/muscle"
 
 #load GCC
 #GCC="module load gcc/6.3.0"
-
-# modify job run / submit Parameters
-RUNNER="/bin/bash"
 
 QUEUESUBMIT="qsub"
