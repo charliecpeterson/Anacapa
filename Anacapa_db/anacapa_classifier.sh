@@ -132,14 +132,6 @@ else
   echo ""
 fi
 
-##load modules / software
-${MODULE_SOURCE} # use if you need to load modules from an HPC
-${FASTX_TOOLKIT} #load fastx_toolkit
-${ANACONDA_PYTHON} #load anaconda/python2-4.2
-${PERL} #load perl
-${ATS} #load ATS, Hoffman2-specific module for managing submitted jobs.
-date
-###
 
 ###############################
 # Make sure unassembled reads are still paired and submit dada2 jobs

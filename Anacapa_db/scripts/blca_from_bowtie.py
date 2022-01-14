@@ -324,7 +324,7 @@ with open(sam_file_name) as sam_file:
 rejects = possible_rejects.difference(set(input_sequences))
 
 
-print "> 3 > Read in bowtie2 output!"
+#print "> 3 > Read in bowtie2 output!"
 
 already_assigned = set()
 if continue_mode:
@@ -339,7 +339,7 @@ for seqn, info in input_sequences.items():
     if seqn in already_assigned:
         continue
 
-print("> 3 > Read in bowtie2 output!")
+#print("> 3 > Read in bowtie2 output!")
 
 count = 0
 outfile = open(outfile_name, 'w')
